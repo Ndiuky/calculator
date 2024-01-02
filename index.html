@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Калькулятор</title>
+    <meta name="description" content="calc on js" />
+    <meta name="keywords" content="calc, js" />
+    <meta name="author" content="Farid Typaev" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main">
+      <h1>Калькулятор</h1>
+
+      <div class="input-box">
+        <input
+          type="text"
+          placeholder="Введите первое число"
+          id="input_1"
+          required
+        />
+      </div>
+      <div class="input-box">
+        <input
+          type="text"
+          placeholder="Введите второе число"
+          id="input_2"
+          required
+        />
+      </div>
+
+      <div class="button-box">
+        <button id="plus">Плюс</button>
+        <button id="minus">Минус</button>
+      </div>
+      <div class="button-box">
+        <button id="x">Умножить</button>
+        <button id="y">Разделить</button>
+      </div>
+
+      <div class="btn">
+        <button id="submit">Равно</button>
+      </div>
+
+      <div class="result">
+        <h4>Результат:</h4>
+        <p id="result"></p>
+      </div>
+    </div>
+
+    <noscript>Включи JS</noscript>
+    <script src="script.js"></script>
+  </body>
+</html>
